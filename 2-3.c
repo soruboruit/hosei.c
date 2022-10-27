@@ -1,14 +1,11 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-    int x;
-    int y;
-    scanf("%d %d", &x, &y);
-    printf("%d-%d=%d\n", x, y, x - y);
-    printf("%dx%d=%d\n", x, y, x * y);
-    printf("%d÷%d=%d\n", x, y, x / y);
-    printf("%d+%d=%d\n", x, y, x + y);
-
+    printf("10 + 3 = %d\n", 10 + 3);
+    printf("10 - 3 = %d\n", 10 - 3);
+    printf("10 * 3 = %d\n", 10 * 3);
+    printf("10 / 3 = %d\n", 10 / 3);
+    printf("10 mod 3 = %d\n", 10 % 3);
     return 0;
 }
